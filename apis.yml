@@ -1,7 +1,17 @@
 aid: yunjichina
-name: yunjichina
-description: yunjichina is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Yunji
+description: >-
+  Yunji (云集) is a leading membership-based social e-commerce platform in China,
+  founded in Hangzhou in May 2015. Yunji curates a wide range of consumer products
+  across health food, beauty, personal care, digital devices, and apparel, and uses
+  a member-driven model in which members earn rewards by sharing products with their
+  social contacts. The company applies big data and artificial intelligence to
+  optimize the shopping experience and incentivize social promotion. Yunji listed
+  on the Nasdaq Stock Exchange (ticker YJ) in May 2019 as the first membership-based
+  Chinese e-commerce firm to do so. Yunji was surfaced as a portfolio company of
+  Qiming Venture Partners and added to the API Evangelist network. As of this
+  enrichment pass, Yunji operates as a consumer mobile-app commerce platform and
+  publishes no public developer or open API program.
 url: https://raw.githubusercontent.com/api-evangelist/yunjichina/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,29 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- E-Commerce
+- Social Commerce
+- Retail
+- Marketplace
+- China
+- Consumer
+image: https://raw.githubusercontent.com/api-evangelist/yunjichina/refs/heads/main/apis.yml
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yunjichina-domain-security.yml
 - type: Website
   url: https://yunjichina.com.cn
+- type: InvestorRelations
+  url: https://investor.yunjiglobal.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
